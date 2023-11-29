@@ -1,0 +1,6 @@
+.video {
+  width: calc(100% + 1px);
+  aspect-ratio: 16 / 9;
+  display: block;
+  clip-path: inset(0% 0% 0% 0% round 20px);
+}

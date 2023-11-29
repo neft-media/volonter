@@ -1,0 +1,72 @@
+.profile {
+  background-color: var(--clr-2);
+}
+
+.header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: end;
+}
+
+.job {
+  width: 100%;
+  max-width: 350px;
+}
+
+.portraitContainer {
+  position: relative;
+  justify-self: end;
+}
+
+.circle {
+  display: block;
+  width: 100%;
+  max-width: 500px;
+}
+
+.portrait {
+  position: absolute;
+  bottom: 0;
+  display: block;
+  width: 100%;
+  max-width: 350px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.content {
+  max-width: 1280px;
+  background-color: var(--clr-3);
+  border-radius: 50px;
+  padding: calc(var(--offset-base-size) * 16);
+}
+
+.interview {
+  display: grid;
+  grid-template-columns: 1fr 400px;
+  gap: calc(var(--offset-base-size) * 6);
+  align-items: center;
+}
+
+.video {
+  width: 100%;
+  max-width: 700px;
+  border-radius: 20px;
+  box-shadow: 0px 50px 50px -20px rgba(0, 80, 154, 0.40);
+}
+
+.carouselImage {
+  display: block;
+  width: 100%;
+  border-radius: 20px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.control {
+  &[data-inactive] {
+    opacity: 0;
+    cursor: default;
+  }
+}
+

@@ -1,0 +1,10 @@
+.carouselImage {
+  display: block;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 95vh;
+  aspect-ratio: 3 / 2;
+  object-fit: contain;
+  border-radius: 20px;
+}

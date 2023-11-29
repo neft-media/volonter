@@ -1,0 +1,11 @@
+.text{
+  width: 100%;
+  max-width: 450px;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  max-width: 1200px;
+  margin-inline: auto;
+}

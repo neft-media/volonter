@@ -1,0 +1,26 @@
+@import url("typography.css");
+@import url("box.css");
+
+:root {
+  --clr-1: #0070BA;
+  --clr-2: #E1EBF3;
+  --clr-3: #F3F7FA;
+}
+
+html {
+  font-size: var(--ff-base);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: var(--ff);
+}
+
+.section {
+  width: 100%;
+  max-width: 1200px;
+  margin-inline: auto;
+  padding-inline: calc(var(--offset-base-size) * 4);
+}
