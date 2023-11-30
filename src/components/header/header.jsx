@@ -6,7 +6,7 @@ import styles from "./header.module.css";
 
 function Header() {
   return (
-    <header className={clsx("section")}>
+    <header className={clsx("section", "mb_12")}>
       <h1 className={styles.title}>Зачем искать время на&nbsp;волонтерство</h1>
       <div className={clsx(styles.text)}>
         <h3 className={clsx("mt_4")}>

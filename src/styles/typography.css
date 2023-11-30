@@ -50,3 +50,35 @@ p {
   line-height: 1.4;
   margin-top: calc(var(--offset-base-size) * 4);
 }
+
+a {
+  color: var(--clr-1);
+  text-decoration: none;
+}
+
+a:visited, a:hover {
+  color: var(--clr-1);
+}
+
+.refQuotes {
+  border: none;
+}
+
+.refText {
+  border-bottom: 1px solid rgba(0, 112, 186, 0.3);
+}
+
+@media screen and (max-width: 1050px) {
+  h1 {
+    font-size: 4rem;
+  }
+  h2 {
+    font-size: 3rem;
+  }
+  h3 {
+    font-size: 1.5rem;
+  }
+  h4 {
+    font-size: 1.25rem;
+  }
+}

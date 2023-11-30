@@ -12,7 +12,7 @@ const carouselStyles = {
   withIndicators: true,
   slideSize: "33.333333%",
   slideGap: "md",
-  loop: true,
+  // loop: true,
   align: "center",
   slidesToScroll: 3
 }
@@ -20,7 +20,7 @@ const carouselStyles = {
 function Profile({hero, changeCarouselImage}) {
 
   return (
-    <section className={clsx(styles.profile, "mt_12")}>
+    <section className={clsx(styles.profile)}>
 
       <div className={clsx(styles.header, "section", "pt_30")}>
         <div>
@@ -43,7 +43,7 @@ function Profile({hero, changeCarouselImage}) {
         <div className={styles.interview}>
           <div>
             <div className={styles.video}>
-              {/* <YoutubeEmbed video={hero.video}/> */}
+              <YoutubeEmbed video={hero.video}/>
             </div>
           </div>
           <div className={clsx(styles.interviewText)}>
@@ -51,7 +51,7 @@ function Profile({hero, changeCarouselImage}) {
           </div>
         </div>
 
-        <Carousel {...carouselStyles} classNames={styles.control}>
+        <Carousel {...carouselStyles} classNames={styles} className={clsx("mt_12")}>
           {
             hero.photos.map((photo, idx) => (
               <Carousel.Slide key={photo.id}>

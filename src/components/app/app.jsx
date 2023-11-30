@@ -96,7 +96,7 @@ function App() {
         <CloseButton {...closeButtonStyles} size="lg" onClick={handleModal}/>
         {
           (activeImage != null) &&
-              <Carousel {...carouselStyles} getEmblaApi={setEmbla} initialSlide={activeImage}>
+              <Carousel {...carouselStyles} getEmblaApi={setEmbla} initialSlide={activeImage} >
                 {
                   activeGallery.map((photo, idx) => (
                     <Carousel.Slide key={idx}>
