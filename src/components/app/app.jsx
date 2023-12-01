@@ -5,6 +5,8 @@ import clsx from 'clsx';
 import { Modal, CloseButton } from '@mantine/core';
 import { Carousel, useAnimationOffsetEffect } from '@mantine/carousel';
 
+import { motion } from "framer-motion";
+
 import Header from '../header/header';
 import Profile from '../profile/profile';
 
@@ -60,7 +62,12 @@ const closeButtonStyles = {
   }
 }
 
-
+const animationsFromLeft = {
+  initial: {x: "-100%", opacity: 0},
+  whileInView: {x: 0, opacity: 1},
+  viewport: {once: true},
+  transition: {type: "spring", stiffness: 100}
+}
 
 function App() {
 
@@ -85,12 +92,15 @@ function App() {
 
 
   return (
+
     <div className={clsx("mt_12")}>
       <Header />
 
       {heroes.map(hero => (
         <Profile key={hero.id} hero={hero} changeCarouselImage={handleModal}/>
       ))}
+
+      <div className={clsx("spacer","pb_12")}>&nbsp;</div>
 
       <Modal opened={activeImage!=null} onClose={handleModal} {...modalStyles} transitionProps={{ duration: TRANSITION_DURATION, transition: "slide-right" }}>
         <CloseButton {...closeButtonStyles} size="lg" onClick={handleModal}/>

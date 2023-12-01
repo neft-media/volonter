@@ -20,63 +20,18 @@ import vitaliiLezinPhoto3Small from "../../images/photos/vitalii_lezin_3_small.j
 import vitaliiLezinPhoto4Big from "../../images/photos/vitalii_lezin_4_big.jpg";
 import vitaliiLezinPhoto4Small from "../../images/photos/vitalii_lezin_4_small.jpg";
 
+import gulnaraStartsevaPort from "../../images/gulnara-startseva.png";
+import gulnaraStartsevaPhoto1Big from "../../images/photos/gulnara_startseva_1_big.jpg";
+import gulnaraStartsevaPhoto1Small from "../../images/photos/gulnara_startseva_1_small.jpg";
+import gulnaraStartsevaPhoto2Big from "../../images/photos/gulnara_startseva_2_big.jpg";
+import gulnaraStartsevaPhoto2Small from "../../images/photos/gulnara_startseva_2_small.jpg";
+import gulnaraStartsevaPhoto3Big from "../../images/photos/gulnara_startseva_3_big.jpg";
+import gulnaraStartsevaPhoto3Small from "../../images/photos/gulnara_startseva_3_small.jpg";
+
+
 const heroes = [
   {
     id: 1,
-    name: "Елена Есипенко",
-    title: <>Открыла новое в&nbsp;людях и&nbsp;в&nbsp;себе</>,
-    job: <>руководитель направления в&nbsp;управлении исполнением договоров</>,
-    portrait: elenaEsipenkoPort,
-    video: "iaVxHVPXMFw?si=7QPHcIz4ip-7ftOs",
-    interviewText: (
-      <>
-        <p className="mt_0">
-          Елена много лет участвовала в&nbsp;волонтерских проектах в&nbsp;Томске
-          и&nbsp;Омске. Рассказывает, что получает удовольствие, когда помогает
-          кому-то. Переехав в&nbsp;Тюмень, устроилась работать
-          в&nbsp;&laquo;Газпромнефть-Ямал&raquo; и&nbsp;получила поддержку
-          коллег. Елена стала волонтером в&nbsp;детских домах, домах
-          престарелых, а&nbsp;в&nbsp;этом году еще подключилась
-          к&nbsp;всероссийскому проекту
-          &laquo;28&nbsp;петель&raquo;&nbsp;&mdash; для помощи недоношенным
-          младенцам и&nbsp;их&nbsp;мамам.
-        </p>
-        <p>
-          Мы&nbsp;узнали, почему ей&nbsp;близко добровольчество и&nbsp;как оно
-          влияет на&nbsp;ее&nbsp;профессиональную деятельность.
-        </p>
-      </>
-    ),
-    photos: [
-      {
-        id: 0,
-        big: elenaEsipenkoPhoto1Big,
-        small: elenaEsipenkoPhoto1Small,
-      },
-      {
-        id: 1,
-        big: elenaEsipenkoPhoto2Big,
-        small: elenaEsipenkoPhoto2Small,
-      },
-      {
-        id: 2,
-        big: elenaEsipenkoPhoto3Big,
-        small: elenaEsipenkoPhoto3Small,
-      },
-      {
-        id: 3,
-        big: elenaEsipenkoPhoto4Big,
-        small: elenaEsipenkoPhoto4Small,
-      },
-      {
-        id: 4,
-        big: elenaEsipenkoPhoto5Big,
-        small: elenaEsipenkoPhoto5Small,
-      },
-    ],
-  },
-  {
-    id: 2,
     name: "Виталий Лезин",
     title: (
       <>
@@ -85,12 +40,12 @@ const heroes = [
         на&nbsp;матч
       </>
     ),
-    job: <>ведущий специалист по&nbsp;спортивной деятельности</>,
+    job: <>ведущий специалист<br/>по&nbsp;спортивной деятельности</>,
     portrait: vitaliiLezinPort,
     video: "3MHvqJFWr3k?si=KyK2RkeWAxO6Fmaj",
     interviewText: (
       <>
-        <p className="mt_0">
+        <p>
           Для Виталия спорт&nbsp;&mdash; это и&nbsp;хобби, и&nbsp;работа. Его
           волонтерство началось с&nbsp;разовых соревнований
           и&nbsp;мастер-классов для детей из&nbsp;отдаленных ямальских поселков,
@@ -135,6 +90,117 @@ const heroes = [
       },
     ],
   },
+  {
+    id: 2,
+    name: "Гульнара Старцева",
+    title: (
+      <>
+        Общее
+        <br />
+        дело <br />
+        объединяет
+      </>
+    ),
+    job: (
+      <>
+        руководитель направления<br/>
+        отдела управления договорами<br/>
+        по&nbsp;капитальному строительству<br/>
+        и&nbsp;бурению скважин
+      </>
+    ),
+    portrait: gulnaraStartsevaPort,
+    video: "_C1DvFWpNiE?si=PQcF2ue3fmfxllGX",
+    interviewText: (
+      <>
+        <p>
+          У&nbsp;Гульнары большой опыт волонтерства. Ей&nbsp;интересно
+          подключаться к&nbsp;самым разным благотворительным проектам, которые
+          проводят ее&nbsp;коллеги из&nbsp;&laquo;Газпромнефть-Ямала&raquo;. Она
+          уверена: общее дело, будь&nbsp;то экологическая акция на&nbsp;Крайнем
+          Севере или помощь детскому дому в&nbsp;Тюмени, объединяет
+          и&nbsp;сплачивает.
+        </p>
+        <p>
+          Недавно Гульнара инициировала свой волонтерский проект&nbsp;&mdash;
+          решила обучать финансовой грамотности ямальских школьников. Почему
+          ей&nbsp;кажется важным развивать это направление и&nbsp;почему
+          не&nbsp;сможет ограничиться только&nbsp;им, она рассказала NEFT.
+        </p>
+      </>
+    ),
+    photos: [
+      {
+        id: 0,
+        big: gulnaraStartsevaPhoto1Big,
+        small: gulnaraStartsevaPhoto1Small,
+      },
+      {
+        id: 1,
+        big: gulnaraStartsevaPhoto2Big,
+        small: gulnaraStartsevaPhoto2Small,
+      },
+      {
+        id: 2,
+        big: gulnaraStartsevaPhoto3Big,
+        small: gulnaraStartsevaPhoto3Small,
+      },
+    ],
+  },
+  {
+    id: 3,
+    name: "Елена Есипенко",
+    title: <>Открыла новое в&nbsp;людях и&nbsp;в&nbsp;себе</>,
+    job: <>руководитель направления<br/>в&nbsp;управлении исполнением договоров</>,
+    portrait: elenaEsipenkoPort,
+    video: "iaVxHVPXMFw?si=7QPHcIz4ip-7ftOs",
+    interviewText: (
+      <>
+        <p>
+          Елена много лет участвовала в&nbsp;волонтерских проектах в&nbsp;Томске
+          и&nbsp;Омске. Рассказывает, что получает удовольствие, когда помогает
+          кому-то. Переехав в&nbsp;Тюмень, устроилась работать
+          в&nbsp;&laquo;Газпромнефть-Ямал&raquo; и&nbsp;получила поддержку
+          коллег. Елена стала волонтером в&nbsp;детских домах, домах
+          престарелых, а&nbsp;в&nbsp;этом году еще подключилась
+          к&nbsp;всероссийскому проекту
+          &laquo;28&nbsp;петель&raquo;&nbsp;&mdash; для помощи недоношенным
+          младенцам и&nbsp;их&nbsp;мамам.
+        </p>
+        <p>
+          Мы&nbsp;узнали, почему ей&nbsp;близко добровольчество и&nbsp;как оно
+          влияет на&nbsp;ее&nbsp;профессиональную деятельность.
+        </p>
+      </>
+    ),
+    photos: [
+      {
+        id: 0,
+        big: elenaEsipenkoPhoto1Big,
+        small: elenaEsipenkoPhoto1Small,
+      },
+      {
+        id: 1,
+        big: elenaEsipenkoPhoto2Big,
+        small: elenaEsipenkoPhoto2Small,
+      },
+      {
+        id: 2,
+        big: elenaEsipenkoPhoto3Big,
+        small: elenaEsipenkoPhoto3Small,
+      },
+      {
+        id: 3,
+        big: elenaEsipenkoPhoto4Big,
+        small: elenaEsipenkoPhoto4Small,
+      },
+      {
+        id: 4,
+        big: elenaEsipenkoPhoto5Big,
+        small: elenaEsipenkoPhoto5Small,
+      },
+    ],
+  }
 ];
 
 export default heroes;
