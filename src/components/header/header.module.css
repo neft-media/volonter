@@ -7,6 +7,14 @@ header {
   max-width: 450px;
 }
 
+.title {
+  /* text-align: center; */
+}
+
+.subtitle {
+
+}
+
 .image {
   display: block;
   width: 100%;

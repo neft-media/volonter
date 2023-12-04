@@ -30,7 +30,8 @@
   position: absolute;
   bottom: 0;
   display: block;
-  height: 120%;
+  height: 110%;
+  /* height: 120%; */
   left: 50%;
   transform: translateX(-50%);
 }

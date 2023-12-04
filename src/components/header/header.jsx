@@ -41,11 +41,11 @@ function Header() {
   return (
     <header className={clsx("section", "mb_12")}>
       <motion.h1 {...animationsFromBottom} className={styles.title}>Время помогать!</motion.h1>
+      <motion.h3 {...animationsFromBottom} className={clsx(styles.subtitle,"mt_4")}>
+        Три&nbsp;вдохновляющие истории от&nbsp;тех,&nbsp;кто&nbsp;работает
+        в&nbsp;нефтянке
+      </motion.h3>
       <div className={clsx(styles.text)}>
-        <motion.h3 {...animationsFromBottom} className={clsx("mt_4")}>
-          Три вдохновляющие истории от&nbsp;тех, кто работает
-          в&nbsp;нефтегазовой отрасли
-        </motion.h3>
         <motion.p {...animationsFromBottom}>
           Ежегодно 5&nbsp;декабря отмечается Международный день добровольца.
           Накануне праздника NEFT поговорила с&nbsp;людьми, которые совмещают
@@ -53,8 +53,8 @@ function Header() {
         </motion.p>
         <motion.p {...animationsFromBottom}>
           Мы&nbsp;узнали, почему состоявшиеся люди стремятся
-          к&nbsp;волонтерству, как они меняют город, в&nbsp;котором живут,
-          и&nbsp;помогает&nbsp;ли им&nbsp;в&nbsp;этом работодатель.
+          к&nbsp;волонтерству, как&nbsp;они меняют город, в&nbsp;котором живут,
+          и&nbsp;помогает&nbsp;ли&nbsp;им&nbsp;в&nbsp;этом работодатель.
         </motion.p>
       </div>
 
