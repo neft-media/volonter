@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/volonter/static/css/main.153837af.css",
-    "main.js": "/volonter/static/js/main.d9ffaab7.js",
+    "main.js": "/volonter/static/js/main.a1cba535.js",
     "static/js/787.fcc745bc.chunk.js": "/volonter/static/js/787.fcc745bc.chunk.js",
     "static/media/gulnara_startseva_1_big.jpg": "/volonter/static/media/gulnara_startseva_1_big.cd91e2ba0b102be8b12b.jpg",
     "static/media/gulnara_startseva_2_big.jpg": "/volonter/static/media/gulnara_startseva_2_big.508e0194d75459ace4ef.jpg",
@@ -36,11 +36,11 @@
     "index.html": "/volonter/index.html",
     "static/media/circle.svg": "/volonter/static/media/circle.92d5dc3224a17b593145842a9b8402d7.svg",
     "main.153837af.css.map": "/volonter/static/css/main.153837af.css.map",
-    "main.d9ffaab7.js.map": "/volonter/static/js/main.d9ffaab7.js.map",
+    "main.a1cba535.js.map": "/volonter/static/js/main.a1cba535.js.map",
     "787.fcc745bc.chunk.js.map": "/volonter/static/js/787.fcc745bc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.153837af.css",
-    "static/js/main.d9ffaab7.js"
+    "static/js/main.a1cba535.js"
   ]
 }
