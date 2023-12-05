@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/volonter/static/css/main.153837af.css",
-    "main.js": "/volonter/static/js/main.78f2be0c.js",
+    "main.css": "/volonter/static/css/main.a98f3dbc.css",
+    "main.js": "/volonter/static/js/main.1d834b07.js",
     "static/js/787.fcc745bc.chunk.js": "/volonter/static/js/787.fcc745bc.chunk.js",
     "static/media/gulnara_startseva_1_big.jpg": "/volonter/static/media/gulnara_startseva_1_big.cd91e2ba0b102be8b12b.jpg",
     "static/media/gulnara_startseva_2_big.jpg": "/volonter/static/media/gulnara_startseva_2_big.508e0194d75459ace4ef.jpg",
@@ -35,12 +35,12 @@
     "static/media/vitalii_lezin_1_small.jpg": "/volonter/static/media/vitalii_lezin_1_small.feaf2f4dc54177291e36.jpg",
     "index.html": "/volonter/index.html",
     "static/media/circle.svg": "/volonter/static/media/circle.92d5dc3224a17b593145842a9b8402d7.svg",
-    "main.153837af.css.map": "/volonter/static/css/main.153837af.css.map",
-    "main.78f2be0c.js.map": "/volonter/static/js/main.78f2be0c.js.map",
+    "main.a98f3dbc.css.map": "/volonter/static/css/main.a98f3dbc.css.map",
+    "main.1d834b07.js.map": "/volonter/static/js/main.1d834b07.js.map",
     "787.fcc745bc.chunk.js.map": "/volonter/static/js/787.fcc745bc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.153837af.css",
-    "static/js/main.78f2be0c.js"
+    "static/css/main.a98f3dbc.css",
+    "static/js/main.1d834b07.js"
   ]
 }
