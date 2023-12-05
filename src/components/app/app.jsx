@@ -9,11 +9,13 @@ import { motion } from "framer-motion";
 
 import Header from '../header/header';
 import Profile from '../profile/profile';
+import ProgressiveImg from '../progressive-image/progressive-image';
 
 import heroes from "../utils/heroes";
 
 import styles from "./app.module.css";
 
+import imageLoader from "../../images/image-loader.png";
 
 const modalStyles = {
   xOffset: 0,
@@ -110,7 +112,12 @@ function App() {
                 {
                   activeGallery.map((photo, idx) => (
                     <Carousel.Slide key={idx}>
-                      <img className={clsx(styles.carouselImage)} src={photo.big}/>
+                      {/* <img className={clsx(styles.carouselImage)} src={photo.big}/> */}
+                      <ProgressiveImg
+                        src={photo.big}
+                        placeholderSrc={imageLoader}
+                        classes={styles.carouselImage}
+                      />
                     </Carousel.Slide>
                   ))
                 }
